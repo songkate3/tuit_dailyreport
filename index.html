@@ -22,9 +22,9 @@ body{background:var(--bg); font-family:'Noto Sans KR',sans-serif; color:var(--in
 .hero .mascot{width:64px; height:64px; border-radius:50%; background:var(--purple-50); color:var(--purple-600); display:flex; align-items:center; justify-content:center; font-family:'Baloo 2',sans-serif; font-size:26px; font-weight:800; flex-shrink:0;}
 .hero h1{font-size:clamp(19px,4.5vw,24px); font-weight:700; color:#fff;}
 .hero .meta{font-size:13px; margin-top:8px; color:#fff; line-height:1.8;}
-.hero .meta .mk{color:var(--purple-100); font-weight:500; margin-right:4px;}
+.hero .meta .mk{color:var(--purple-50); font-weight:500; margin-right:4px;}
 .hero .meta .mk + .mk-gap{margin-left:12px;}
-.badge{margin-left:auto; background:var(--purple-600); color:#fff; border-radius:999px; padding:8px 14px; font-size:13px; font-weight:700; white-space:nowrap;}
+.badge{margin-left:auto; background:#fff; color:var(--purple-600); border-radius:999px; padding:8px 14px; font-size:13px; font-weight:700; white-space:nowrap;}
 h2.topic{font-size:18px; font-weight:700; color:var(--purple-900); margin-bottom:4px; font-family:'Baloo 2','Noto Sans KR',sans-serif;}
 .soft{font-size:14px; color:var(--ink-soft);}
 .lesson-head{display:flex; gap:16px; align-items:flex-start;}
@@ -78,12 +78,12 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
         <div><span class="mk">학습 교재</span> What Light Can Do<span class="mk" style="margin-left:12px;">튜터</span> Gemalli</div>
       </div>
     </div>
-    <div class="badge">Level: Wings A2</div>
+    <div class="badge">Level · Wings A2</div>
   </div>
 
   <div class="card">
     <div class="label">Summary · 수업 총평</div>
-    <p style="font-size:14.5px;">Rain 학생은 오늘 튜터의 질문에 빠짐없이 대답하며 끝까지 성실하게 참여했어요. 새로 배운 <b>light source</b>와 <b>transparent</b>를 스스로 문장에 넣어 말했고, 촛불보다 전등이 좋은 이유를 자기 생각으로 표현한 점이 특히 돋보였어요.</p>
+    <p style="font-size:14.5px;">Rain 학생은 오늘 튜터의 질문에 빠짐없이 대답하며 끝까지 성실하게 참여했어요. 새로 배운 <b>light source</b>와 <b>transparent</b>를 스스로 문장에 넣어 말했고, 교재에 없는 태블릿을 보고 "The tablet is the light source."라고 응용한 점이 인상적이었어요. 촛불보다 전등이 좋은 이유를 물었을 때는 "Because the candle is so dark."라고 자기 생각을 표현하기도 했죠. 튜터의 설명을 되묻는 일 없이 거의 다 알아들었고, 답하기 전 생각 시간이 조금 길었던 부분은 다음 수업에서 소리 내어 반복하며 다듬어 가면 좋겠어요.</p>
   </div>
 
   <div class="card">
@@ -95,7 +95,7 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
         <p class="soft">빛이 어디서 오는지(광원), 빛이 통과하는 물체와 통과하지 못하는 물체를 배우고, 우리 집에 있는 광원을 영어로 말해봤어요.</p>
       </div>
     </div>
-    <div class="label" style="margin-top:18px;">New expressions · 오늘 배운 표현</div>
+    <div class="label" style="margin-top:18px; padding-top:16px; border-top:2px solid var(--bg);">New expressions · 오늘 배운 표현</div>
     <p class="soft" style="font-size:13px; margin-bottom:6px;">연습을 마치고 혼자 말할 수 있게 되면 보라 배지가 붙어요</p>
     <div class="row"><span class="word">light source</span><span class="pill done">✨ 혼자서도 잘 말했어요</span></div>
     <div class="quote">"The tablet is the light source." — 교재에 없는 물건에 직접 적용했어요</div>
@@ -120,10 +120,10 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
   <div class="card">
     <div class="label">Class activity · 수업 참여</div>
     <div class="grid">
+      <div class="stat" style="background:var(--purple-600);"><div class="k" style="color:var(--purple-100);">직접 말한 시간</div><div class="v" style="color:#fff;">7분</div><div style="font-size:11px; font-weight:700; color:#9FE1CB;">지난 수업보다 +1분</div></div>
       <div class="stat"><div class="k">질문 응답률</div><div class="v">96%</div></div>
       <div class="stat"><div class="k">총 발화</div><div class="v">58회</div></div>
       <div class="stat"><div class="k">오늘 연습한 표현</div><div class="v">7개</div></div>
-      <div class="stat"><div class="k">평균 문장 길이</div><div class="v">4.5<span style="font-size:14px;">단어</span></div></div>
     </div>
     <div class="legend">
       <span style="color:var(--purple-600); font-weight:700;">💪 혼자 힘으로 말했어요 15회</span>
@@ -137,26 +137,26 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
   </div>
 
   <div class="card">
-    <div class="label">Speaking skills</div>
-    <svg viewBox="0 0 340 250" style="width:100%; max-width:460px; display:block; margin:0 auto;">
-      <polygon points="170,35 255.6,97.2 222.9,197.8 117.1,197.8 84.4,97.2" fill="none" stroke="#E8E6F5" stroke-width="2"/>
-      <polygon points="170,80 212.8,111.1 196.5,161.4 143.5,161.4 127.2,111.1" fill="none" stroke="#E8E6F5" stroke-width="2"/>
-      <line x1="170" y1="125" x2="170" y2="35" stroke="#E8E6F5" stroke-width="2"/>
-      <line x1="170" y1="125" x2="255.6" y2="97.2" stroke="#E8E6F5" stroke-width="2"/>
-      <line x1="170" y1="125" x2="222.9" y2="197.8" stroke="#E8E6F5" stroke-width="2"/>
-      <line x1="170" y1="125" x2="117.1" y2="197.8" stroke="#E8E6F5" stroke-width="2"/>
-      <line x1="170" y1="125" x2="84.4" y2="97.2" stroke="#E8E6F5" stroke-width="2"/>
-      <polygon points="170,57.5 236.8,103.3 207,176 125,186.9 122.9,109.7" fill="#7F77DD" fill-opacity="0.35" stroke="#7F77DD" stroke-width="3" stroke-linejoin="round"/>
-      <text x="170" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Pronunciation</text>
-      <text x="170" y="29" text-anchor="middle" font-size="10.5" fill="#77758A">발음</text>
-      <text x="262" y="88" text-anchor="start" font-size="12" font-weight="700" fill="#3C3489">Accuracy</text>
-      <text x="262" y="101" text-anchor="start" font-size="10.5" fill="#77758A">정확도</text>
-      <text x="226" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Vocabulary</text>
-      <text x="226" y="229" text-anchor="middle" font-size="10.5" fill="#77758A">어휘</text>
-      <text x="114" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Comprehension</text>
-      <text x="114" y="229" text-anchor="middle" font-size="10.5" fill="#77758A">이해력</text>
-      <text x="78" y="88" text-anchor="end" font-size="12" font-weight="700" fill="#3C3489">Fluency</text>
-      <text x="78" y="101" text-anchor="end" font-size="10.5" fill="#77758A">유창성</text>
+    <div class="label">Speaking skills · 말하기 영역</div>
+    <svg viewBox="0 0 360 250" style="width:100%; max-width:460px; display:block; margin:0 auto;">
+      <polygon points="180,35 265.6,97.2 232.9,197.8 127.1,197.8 94.4,97.2" fill="none" stroke="#E8E6F5" stroke-width="2"/>
+      <polygon points="180,80 222.8,111.1 206.5,161.4 153.5,161.4 137.2,111.1" fill="none" stroke="#E8E6F5" stroke-width="2"/>
+      <line x1="180" y1="125" x2="180" y2="35" stroke="#E8E6F5" stroke-width="2"/>
+      <line x1="180" y1="125" x2="265.6" y2="97.2" stroke="#E8E6F5" stroke-width="2"/>
+      <line x1="180" y1="125" x2="232.9" y2="197.8" stroke="#E8E6F5" stroke-width="2"/>
+      <line x1="180" y1="125" x2="127.1" y2="197.8" stroke="#E8E6F5" stroke-width="2"/>
+      <line x1="180" y1="125" x2="94.4" y2="97.2" stroke="#E8E6F5" stroke-width="2"/>
+      <polygon points="180,42.2 252.8,101.4 217,176 150.9,165 113.2,103.3" fill="#7F77DD" fill-opacity="0.35" stroke="#7F77DD" stroke-width="3" stroke-linejoin="round"/>
+      <text x="180" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Engagement</text>
+      <text x="180" y="29" text-anchor="middle" font-size="10.5" fill="#77758A">참여도</text>
+      <text x="272" y="88" text-anchor="start" font-size="12" font-weight="700" fill="#3C3489">Comprehension</text>
+      <text x="272" y="101" text-anchor="start" font-size="10.5" fill="#77758A">이해력</text>
+      <text x="236" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Vocabulary</text>
+      <text x="236" y="229" text-anchor="middle" font-size="10.5" fill="#77758A">어휘</text>
+      <text x="124" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#3C3489">Fluency</text>
+      <text x="124" y="229" text-anchor="middle" font-size="10.5" fill="#77758A">유창성</text>
+      <text x="88" y="88" text-anchor="end" font-size="12" font-weight="700" fill="#3C3489">Accuracy</text>
+      <text x="88" y="101" text-anchor="end" font-size="10.5" fill="#77758A">정확도</text>
     </svg>
     <div class="duo2" style="margin-top:10px;">
       <div class="mini" style="background:#EAF3DE;">
@@ -189,16 +189,16 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
         <div style="font-size:12px; color:var(--ink-soft);">28 → 30 → 32 → <b style="color:var(--purple-600);">34개</b></div>
       </div>
     </div>
-    <div class="tip">한 번 익힌 표현은 사라지지 않아요. 최근 4주 동안 새 표현 6개가 차곡차곡 쌓였어요.</div>
+    <div class="tip">한 번 익힌 표현은 사라지지 않아요. 최근 4회 수업 동안 새 표현 6개가 차곡차곡 쌓였어요.</div>
   </div>
 
   <div class="card">
     <div class="label">Level up tips · 이렇게 말하면 더 좋아요</div>
     <div class="practice">
       <div class="t">🎯 이번 주 연습 포인트 · 물건 앞에 a 붙이기</div>
-      <div class="fx-blk"><div class="fx-cap">이렇게 말했어요</div><div class="fx-sent">I can see lamp.</div></div>
+      <div class="fx-blk" style="border-left-color:#EAD5A8;"><div class="fx-cap">이렇게 말했어요</div><div class="fx-sent">I can see lamp.</div></div>
       <div class="fx-blk now"><div class="fx-cap">✓ 이렇게 말해봐요</div><div class="fx-sent">I can see <span class="hl">a</span> lamp.</div></div>
-      <div style="font-size:13px; color:var(--amber-600); margin-top:10px;">오늘 3번 빠뜨렸어요. 관사 a는 우리말에 없어서 처음엔 누구나 빠뜨려요. 물건 이름 앞에 a를 붙여 말하는 연습을 하면 금방 익숙해져요.</div>
+      <div style="font-size:13px; color:var(--amber-600); margin-top:10px;">오늘 자주 빠뜨렸어요. 관사 a는 우리말에 없어서 처음엔 누구나 빠뜨려요. 물건 이름 앞에 a를 붙여 말하는 연습을 하면 금방 익숙해져요.</div>
     </div>
     <div class="practice" style="background:var(--bg); margin-bottom:0;">
       <div class="t" style="color:var(--purple-600);">💬 한 번 더 연습해요 · artificial</div>
@@ -211,7 +211,7 @@ svg text{font-family:'Noto Sans KR',sans-serif;}
   <div class="card tutor">
     <div class="avatar">G</div>
     <div>
-      <div class="label" style="margin-bottom:6px;">Gemalli Tutor's note</div>
+      <div class="label" style="margin-bottom:6px;">Tutor's note · Gemalli 튜터의 한마디</div>
       <p style="font-size:14px; font-style:italic;">"Rain, you found all five light sources and made wonderful sentences today. I loved your answer about the candle!"</p>
       <p class="soft" style="font-size:13px; margin-top:6px;">Rain, 오늘 다섯 개의 광원을 모두 찾아내고 멋진 문장들을 만들었어요. 촛불에 대한 대답이 정말 좋았어요!</p>
     </div>
